@@ -173,7 +173,7 @@ open class TableView: UITableView {
         if theDataSource is PlaceholderDataSourceDelegate {
             // placeholder configuration
             separatorStyle = .none
-            alwaysBounceVertical = false
+            alwaysBounceVertical = defaultAlwaysBounceVertical
             tableHeaderView = nil
             tableFooterView = nil
         }
